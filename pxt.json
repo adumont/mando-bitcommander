@@ -1,0 +1,22 @@
+{
+    "name": "Mando-Bitcommander",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "bitcommander": "github:adumont/bitcommander#v1.1.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
