@@ -31,7 +31,7 @@ bitcommander.onEvent(BCPins.Blue, BCEvents.Up, function () {
 radio.setGroup(1)
 bitcommander.ledRainbow()
 basic.showIcon(IconNames.Heart)
-basic.pause(2000)
+basic.pause(500)
 bitcommander.ledClear()
 basic.forever(function () {
     radio.sendValue("x", bitcommander.readJoystick(BCJoystick.X))
